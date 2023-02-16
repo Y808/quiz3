@@ -1,3 +1,7 @@
+"""
+Write a Python program to sort a given dictionary by key.
+"""
+
 dict1 = {
     "Armenia": "Yerevan",
     "Ukraine": "Kyiv",

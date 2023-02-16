@@ -1,3 +1,10 @@
+"""" Write a Python program that replaces all but the last five characters of a string with "*" and returns the
+modified string
+
+Original String: kdi39323swe
+new string: ******23swe
+"""
+
 original_string = "kdi39323swe"
 replacement_char = "*"
 size = len(original_string)
