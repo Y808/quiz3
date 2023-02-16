@@ -1,9 +1,14 @@
-def sum_thrice(x, y, z):
-    sum = x + y + z
+x = int(input('first number is '))
+y = int(input('second number is '))
+z = int(input('third number is '))
 
-    if x == y == z:
+
+def sum_thrice(a, b, c):
+    sum = a + b + c
+
+    if a == b == c:
         sum = sum * 3
     return sum
 
 
-print(sum_thrice(1, 2, 3))
+print(sum_thrice(x, y, z))
